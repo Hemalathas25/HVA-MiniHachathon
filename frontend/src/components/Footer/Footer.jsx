@@ -1,12 +1,13 @@
 import { Container, Row, Col } from "react-bootstrap";
+import "./style.css";
 
 const Footer = () => {
-    //const current = new Date().getFullYear()
   return (
-    <footer>
+    <footer className="footer">
         <Container>
             <Row>
                 <Col className="text-center py-3">
+                   <hr />
                    <p> NewsAPIOrg is not responsible for the content of external sites </p> 
                 </Col>
             </Row>
