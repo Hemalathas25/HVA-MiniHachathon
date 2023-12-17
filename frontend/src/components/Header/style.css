@@ -1,27 +1,22 @@
-.head {
-    text-align: center;
+.title {
     font-size: 100px;
+    font-family: 'Playfair';
     font-weight: normal;
-}
+    text-align: center;
+  }
+  
+  .title span {
+    color: red;
+  }
 
-h1{
-    font-size: 50px;
-    font-family: serif;
-}
-
-hr{
-    background-color: black;
-    margin-top: 5px;
-}
-
-.searchBox {
+.SearchBox {
     margin: auto;
     margin-top: 5%;
     box-sizing: border-box;
     width: 350px;
 }
 
-.searchBox input{
+.SearchBox input{
     padding: 10px;
     font-size: 17px;
     border: 1px solid grey;
@@ -30,7 +25,7 @@ hr{
     background: #f1f1f1;
 }
 
-.searchBox button{
+.SearchBox button{
     float: left;
     width: 70px;
     padding: 10px;
@@ -40,4 +35,10 @@ hr{
     border: 1px solid grey;
     cursor: pointer;
     border-radius: 0;
+}
+
+.hr {
+  opacity: 10;
+  margin: 0;
+  padding: 3px;
 }

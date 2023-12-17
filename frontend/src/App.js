@@ -1,6 +1,8 @@
 import { Container } from "react-bootstrap";
 import Header from "./components/Header/Header";
+//import Fetch from "./components/Header/Fetch";
 import Footer from "./components/Footer/Footer";
+
 
 const App = () => {
   return (
@@ -13,6 +15,7 @@ const App = () => {
   */}
     </Container>
     </main>
+    {/* <Fetch /> */}
     <Footer />
     </>
   )

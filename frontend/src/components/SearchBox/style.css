@@ -1,0 +1,23 @@
+
+.SearchBox form {
+    width: 400px;
+    height: 55px;
+    display: flex;
+    background-color: #fff;
+    border: 1px solid gray;
+    margin: auto;
+  }
+  .SearchBox input {
+    flex: 1;
+    border: none;
+    outline: none;
+  }
+  
+  .SearchBox button {
+    background: red;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
