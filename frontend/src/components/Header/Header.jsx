@@ -7,7 +7,7 @@ const Header = () => {
     <>
     <header>
             <Container className='head'>
-              <h1 className='title'>News<span>●</span>APIOrg</h1>
+              <h1 className='title'>NewsAPI<span>●</span>Org</h1>
               <hr className='hr'/>
               <hr className='hr'/>
               <br />

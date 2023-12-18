@@ -20,4 +20,4 @@ const SearchBox = ({searchNews}) => {
  )
 }
 
-export default SearchBox
+export default SearchBox;
